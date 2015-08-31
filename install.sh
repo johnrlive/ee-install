@@ -46,29 +46,29 @@ echo '[###### Done ######]'
 sleep 1
 
 
-echo '{###### Adds bash_profile with aliases ######]'
+echo '[###### Adds bash_profile with aliases ######]'
 sleep 1
 sudo cp -f .profile ~/.profile
 source ~/.profile
-echo '{###### Done #####]'
+echo '[###### Done #####]'
 sleep 1
 
 
-echo '{###### Setup Unattended Updates ######]'
+echo '[###### Setup Unattended Updates ######]'
 sleep 1
 sudo apt-get install unattended-upgrades
 sudo cp -f 10periodic /etc/apt/apt.conf.d/10periodic
 sudo cp -f 50unattended-upgrades /etc/apt/apt.conf.d/50unattended-upgrades
-echo '{###### Done #####]'
+echo '[###### Done #####]'
 sleep 1
 
 
-echo '{###### Adds bash_profile with aliases ######]'
+echo '[###### Adds bash_profile with aliases ######]'
 sleep 1
 sudo apt-get install logwatch
 sudo vim /etc/cron.daily/00logwatch
 echo 'add this line: /usr/sbin/logwatch --output mail --mailto test@gmail.com --detail high'
-echo '{###### Done #####]'
+echo '[###### Done #####]'
 sleep 1
 
 exit
