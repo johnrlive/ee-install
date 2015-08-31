@@ -58,6 +58,7 @@ sleep 1
 
 echo '{###### Test Update bash alias ######]'
 sleep 1
+source ~/.profile
 update
 echo '{###### Done #####]'
 sleep 1
