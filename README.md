@@ -1,9 +1,9 @@
 # ee-install
 Bash Script To Install Easy Engine on a fresh Ubuntu install
 
-# Install
+# How To Install:
 
-cd ~
-git clone https://github.com/johnrlive/ee-install.git
-cd ee-install
-bash install.sh
+1. cd ~
+2. git clone https://github.com/johnrlive/ee-install.git
+3. cd ee-install
+4. bash install.sh
