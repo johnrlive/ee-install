@@ -35,6 +35,12 @@ wget -qO ee rt.cx/ee && sudo bash ee
 echo '[###### Done ######]'
 sleep 1
 
+echo '[###### Install EasyEngine Stacks ######]'
+sleep 1
+ee stack install --phpmyadmin
+echo '[###### Done ######]'
+sleep 1
+
 
 echo '[###### Install Fail2ban ######]'
 sleep 1
