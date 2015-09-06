@@ -38,6 +38,7 @@ sleep 1
 echo '[###### Install EasyEngine Stacks ######]'
 sleep 1
 sudo ee stack install --phpmyadmin
+sudo ee stack install --phpredisadmin
 echo '[###### Done ######]'
 sleep 1
 
