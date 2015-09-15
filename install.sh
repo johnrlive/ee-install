@@ -8,7 +8,7 @@ if [ $script_runner == "root" ] ; then
 fi
 
 clear
-echo '[Wellcome to ee-install script]'
+echo '[Welcome to ee-install script]'
 echo '(setup can take more 5 minutes)'
 
 
